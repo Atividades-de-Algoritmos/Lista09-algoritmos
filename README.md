@@ -4,7 +4,7 @@
 <a href="https://github.com/Atividades-de-Algoritmos/Lista08-algoritmos/graphs/contributors"><img src="https://img.shields.io/github/contributors/Atividades-de-Algoritmos/Lista09-algoritmos.svg?style=for-the-badge"/></a>
 <a href="https://github.com/Atividades-de-Algoritmos/Lista08-algoritmos/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Atividades-de-Algoritmos/Lista09-algoritmos.svg?style=for-the-badge"/></a>
 
-# Lista 08 de algoritmos 💻
+# Lista 09 de algoritmos 💻
 > Desenvolvido em linguagem Python 🐍
 ### Por:
 - [**Michel**](https://github.com/MichelZero)
