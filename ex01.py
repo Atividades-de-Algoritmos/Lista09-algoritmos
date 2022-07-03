@@ -4,7 +4,7 @@
 # Emanuel Franklyn
 # Carlos Eduardo
 #
-# data: 26/06/2022
+# data: 02/07/2022
 #
 #  1.	 Faça um programa que calcule em uma matriz 3x3 e escreva o valor das seguintes somas:
 # a.	 da linha 2;
@@ -25,11 +25,11 @@
 # |   3 | 3,1 | 3,2 | 3,2 |
 # +-----+-----+-----+-----+
 
-# odem da matriz:
+# Ordem da matriz:
 ordem = 3
 
 # matriz m1
-m1 = [[1,2,3],[4,5,6],[7,8,9]]
+m1 = [[1,2,3], [4,5,6], [7,8,9]]
 
 # ou
 # obs: os indices das listas sempre começam em 0 e não em 1 como no caso da matriz m1
@@ -38,12 +38,14 @@ m2 = [[1,2,3],       #1 00 01 02
       [4,5,6],       #2 10 11 12
       [7,8,9]]       #3 20 21 22
 
+
 # a)	da linha 2 (linha 2 o indice i é igual a 1); # 10 11 12
 somaLinha2 = 0   #  inicialização da variável somaLinha2 com 0 para que a soma não seja nula ao iniciar o loop
 for i in range(ordem):  # i: 0 1 2
   for j in range(ordem): # j: 0 1 2
     if i == 1: # i igual a j, indica que estamos na linha 2
       somaLinha2 = somaLinha2 + m1[i][j]
+
 print(f"soma da linha 2: {somaLinha2}") # imprime a soma da linha 2 da matriz m1
 
 
