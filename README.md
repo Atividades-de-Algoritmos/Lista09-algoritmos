@@ -4,7 +4,7 @@
 <a href="https://github.com/Atividades-de-Algoritmos/Lista08-algoritmos/graphs/contributors"><img src="https://img.shields.io/github/contributors/Atividades-de-Algoritmos/Lista09-algoritmos.svg?style=for-the-badge"/></a>
 <a href="https://github.com/Atividades-de-Algoritmos/Lista08-algoritmos/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Atividades-de-Algoritmos/Lista09-algoritmos.svg?style=for-the-badge"/></a>
 
-# Lista 08 de algoritmos 💻
+# Lista 09 de algoritmos 💻
 > Desenvolvido em linguagem Python 🐍
 ### Por:
 - [**Michel**](https://github.com/MichelZero)
@@ -34,7 +34,7 @@
 <br>
 
 ## Sobre 📒:
-- Algoritmo que testa as mastrizes fazendo os cálculos das somas independetemente da perspectiva.
+- Algoritmo que testa as matrizes fazendo os cálculos das somas independentemente da perspectiva.
 
 <br>
 
@@ -55,9 +55,9 @@ No terminal, digite:
 ```cmd
 python ex01.py
 ```
-pressione enter para executar o arquivo. em seguida informe os 5 valores
+pressione enter para executar o arquivo.
 
->As listas serão exibidas no terminal.
+>As somas serão exibidas no terminal.
 
 <br><br>
 
@@ -117,8 +117,6 @@ A lista é: [-9, 34, 8, 37, 17]
 
 Fim do programa!
 ```
-
-<br>
 
 #
 
