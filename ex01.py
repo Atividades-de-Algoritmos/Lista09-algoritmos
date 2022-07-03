@@ -118,3 +118,90 @@ for i in range(ordem):
   for j in range(ordem):
     somaTodos += m1[i][j] # soma todos os elementos da matriz m1
 print(f"soma todos os elementos: {somaTodos}") # imprime a soma todos os elementos da matriz m1
+
+
+# Versão 2.0 do código
+
+# ---------------------------------------------------------------- #
+
+# By: Carlos Eduardo
+
+# print('''
+#          Matriz
+# +-----+-----+-----+-----+
+# | i,j |  0  |  1  |  2  |
+# +-----+-----+-----+-----+
+# |  0  |  1  |  2  |  3  |
+# |  1  |  4  |  5  |  6  |
+# |  2  |  7  |  8  |  9  |
+# +-----+-----+-----+-----+''')  # Imprimindo a matriz no terminal
+
+
+# m1 = [
+#     [0o1, 0o2, 0o3],
+#     [4, 5, 6],        # Criando uma matriz 3x3, utilizando listas para isso
+#     [7, 8, 9]
+#     ]
+
+# somavrtc1 = 0
+# somavrtc2 = 0   # Variáveis para armazenar os valores das somas verticais
+# somavrtc3 = 0
+
+# for i in m1: # Não utilizei range no for, ou seja, em vez de pegar índices estou buscando logo as listas
+#     somavrtc1 += i[0]
+#     somavrtc2 += i[1] # O índice foi usado para representar a coluna e o 'i' a linha
+#     somavrtc3 += i[2]
+
+# print('\nSOMA DAS VERTICAIS DA MATRIZ')
+# print(f'\nSoma vertical primeira linha: {somavrtc1}')
+# print(f'Soma vertical segunda linha: {somavrtc2}') # Imprimindo informações das somas na vertical +
+# print(f'Soma vertical terceira linha: {somavrtc3}')
+
+# somahorizontal1 = 0
+# somahorizontal2 = 0 # Variáveis para armazenar os valores das somas horizontais
+# somahorizontal3 = 0
+
+# indice = 0 # Variável representando índice
+# for i in m1: # Para cada item em lista m1, ou seja, toda a matriz.
+    
+#     if indice == 0: # Se o índice for igual a 0, ou seja, se for a primeira linha
+#         somahorizontal1 = sum(i) # Função sum() está somando todos os valores da primeira linha
+    
+#     elif indice == 1: # Se o índice for igual a 1, ou seja, se for a segunda linha
+#         somahorizontal2 = sum(i) # Função sum() está somando todos os valores da segunda linha
+    
+#     elif indice == 2: # Se o índice for igual a 2, ou seje, se for a terceira linha
+#         somahorizontal3 = sum(i) # Função sum() está somando todos os valores da terceira linha
+
+#    indice += 1 # Sempre acabar um ciclo do loop adiciono mais um valor a variável indice para ir pra próxima linha
+
+# print('\nSOMA DAS HORIZONTAIS DA MATRIZ')
+# print(f'\nSoma horizontal primeira linha: {somahorizontal1}')
+# print(f'Soma horizontal segunda linha: {somahorizontal2}')  # Imprimindo informações das somas na horizontal +
+# print(f'Soma horizontal terceira linha: {somahorizontal3}')
+
+# indice = 0 # Variável de indice que vai representar as linhas da nossa matriz
+# soma_first_diagonal = 0  # Variável armazenando as somas dos valores em diagonal primária
+# soma_second_diagonal = 0 # Variável armazenando as somas dos valores em diagonal secundária
+
+# for i in m1: # Para cada item na em m1, ou seja, quero acessar todas as listas
+    
+#    for j in i: # Para cada item nas listas citadas acima, o 'j' será os valores e o 'i' as listas
+    
+#         if indice == m1[indice].index(j): # Se a linha for igual ao índice do nosso valor, estamos na diagonal primária
+#            soma_first_diagonal += j # Pego o valor e adiciono a variável de somaDiagonal
+        
+#        elif indice == 2 and m1[indice].index(j) == 0 or indice == 0 and m1[indice].index(j) == 2: # Se a linha 2 e o indíce do valor igual a 0 ou a linha for igual a 0 e o indíce do valor igual a 2 estamos na diagonal secundária
+#            soma_second_diagonal += j # Pego o valor e adiciono a variável de somaDiagonal
+        
+#       if indice == 1 and m1[indice].index(j) == 1: # Se a linha for igual a 1 e o indice do valor executa a identação
+#            soma_second_diagonal += j # Pego o valor e adiciono a variável de somaDiagonal
+
+#    indice += 1
+
+# print('\nSOMA DAS DIAGONAIS DA MATRIZ')
+# print(f'\nSoma da diagonal principal: {soma_first_diagonal}') # Informando as somas ao user
+# print(f'Soma da diagonal secundária: {soma_second_diagonal}')
+
+
+# ---------------------------------------------------------------- #
